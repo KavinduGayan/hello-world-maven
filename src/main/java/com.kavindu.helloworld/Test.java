@@ -3,16 +3,22 @@ package com.kavindu.helloworld;
  * Created by Kavindu on 12/9/2018.
  */
 public final class Test {
-    /** {@inheritDoc} */
+    /**
+     * This is private constructor.
+     * */
     private Test() {
     }
 
-    /** {@inheritDoc} */
+    /**
+     * This is main method.
+     * */
     public static void main(final String[] args) {
         printThis("HI check jenkins checkStyle");
     }
 
-    /** {@inheritDoc} */
+    /**
+     * This is Print method.
+     * */
     public static void printThis(final String a) {
         System.out.println(a);
     }
