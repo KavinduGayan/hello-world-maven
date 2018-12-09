@@ -11,7 +11,7 @@ public final class Test {
 
     /**
      * This is main method.
-     * @param args
+     * @param args args
      * */
     public static void main(final String[] args) {
         printThis("HI check jenkins checkStyle");
