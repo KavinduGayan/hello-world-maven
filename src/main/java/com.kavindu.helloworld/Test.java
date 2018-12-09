@@ -11,6 +11,7 @@ public final class Test {
 
     /**
      * This is main method.
+     * @param args
      * */
     public static void main(final String[] args) {
         printThis("HI check jenkins checkStyle");
@@ -18,6 +19,7 @@ public final class Test {
 
     /**
      * This is Print method.
+     * @param a - print String
      * */
     public static void printThis(final String a) {
         System.out.println(a);
